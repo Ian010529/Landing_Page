@@ -77,11 +77,11 @@ a {
     align-items: center;
 }
 
-.SignupButton {
+.SignupButton1 {
     margin: 16px 0;
 }
 
-.SignupButton button {
+.SignupButton1 button {
     font-size: 16px;
     font-weight: 600;
     color: #F9FAF8;
@@ -94,7 +94,40 @@ a {
 }
 
 .example {
+    display: flex;
+    flex-direction: column;
     height: 450px;
+    align-items: center;
+}
+
+.examplebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exampleimg {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    justify-content: center;
+}
+
+.exampletext {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+.examplealt {
+    text-align: center;
+    margin: 10px 30px;
+}
+
+.boxcontainer {
+    padding: 0 240px;
+    display: flex;
 }
 
 .quote {
