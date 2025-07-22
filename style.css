@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 0 200px;
+}
+
+.sidebar {
+    display: flex;
+    padding: 16px 0;
+}
+
+.sidebartext {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.sidebarlink {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200;
+    color: #c5c6c6;
+}
+
+.Herocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.Herotext, .Heroimg {
+    height: 225px;
+    width: 50%;
+}
+
+.Herotext {
+    margin-right: 80px;
+}
+
+.Herocontainer h1 {
+    margin: 8px 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.Herotext, .Heroimg p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #dcdddd;
+    padding: 8px 0;
+}
+
+.Heroimg {
+    background-color: #70757e;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignupButton {
+    margin: 16px 0;
+}
+
+.SignupButton button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F9FAF8;
+    height: 35px;
+    width: 125px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: none;
+}
